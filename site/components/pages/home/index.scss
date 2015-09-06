@@ -21,4 +21,8 @@ body {
   .home__exams {
     @include home__exams;
   }
+
+  .features {
+    @include features;
+  }
 }

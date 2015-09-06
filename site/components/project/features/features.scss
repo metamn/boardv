@@ -1,0 +1,9 @@
+@mixin features {
+  &__video {
+    @include features__video;
+  }
+
+  &__list {
+    @include features__list;
+  }
+}

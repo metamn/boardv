@@ -23,5 +23,8 @@
 
     {% set exam_groups = exam_groups %}
     {% include '__exams/home__exams.html.swig' %}
+
+    {% set features = features %}
+    {% include '../../project/features/features.html.swig' %}
   </body>
 </html>
