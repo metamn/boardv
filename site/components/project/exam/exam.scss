@@ -1,4 +1,6 @@
 @mixin exam {
+  display: flex;
+
   &__title {
     display: flex;
   }

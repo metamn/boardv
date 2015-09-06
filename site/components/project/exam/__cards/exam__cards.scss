@@ -1,4 +1,6 @@
 @mixin exam__cards {
+  display: flex;
+
   .card {
     @include card;
   }

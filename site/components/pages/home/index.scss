@@ -3,6 +3,9 @@ body {
   @include reset;
   @include text-style(default);
 
+  display: flex;
+  flex-direction: column;
+
   .header {
     @include header;
   }
