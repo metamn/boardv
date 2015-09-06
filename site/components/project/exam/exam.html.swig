@@ -1,38 +1,35 @@
 <article class="exam">
   <h3 class="exam__title">{{ exam.title }}</h3>
 
-  <table class="exam__table">
+  <div class="exam__card">
 
-    <thead class="header">
-      <tr>
-        <td class="header__title">{{ exam.title}}</td>
-        <td class="header__trial">Trial</td>
-        <td class="header__one-month">1 Month</td>
-        <td class="header__three-month">3 Month</td>
-        <td class="header__six-month">6 Month</td>
-      </tr>
-    </thead>
+    <div class="header">
+      <div class="header__title">{{ exam.title}}</div>
+      <div class="header__trial">Trial</div>
+      <div class="header__one-month">1 Month</div>
+      <div class="header__three-month">3 Month</div>
+      <div class="header__six-month">6 Month</div>
+    </div>
 
-    <tbody class="items">
+    <div class="items">
       {% for item in exam.items %}
-        <tr class="item">
-          <td class="item__title">{{ item.title }}</td>
+        <div class="item">
+          <div class="item__title">{{ item.title }}</div>
 
-          <td class="item__plan">
+          <div class="item__plan">
             {% set price = "0" %}
             {% include 'price/price.html.swig' %}
             {% include 'action/action.html.swig' %}
-          </td>
+          </div>
 
           {% for price in item.pricing %}
-            <td class="item__plan">
+            <div class="item__plan">
               {% include 'price/price.html.swig' %}
               {% include 'action/action.html.swig' %}
-            </td>
+            </div>
           {% endfor %}
-        </tr>
+        </div>
       {% endfor %}
-    </tbody>
-  </table>
-
+    </div>
+  </div>
 </article>
