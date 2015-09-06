@@ -26,6 +26,25 @@
       }
     }
   ],
+  "values": [
+    {
+      "title": "Single digital question bank"
+    },
+    {
+      "title": "Access anytime, anywhere"
+    },
+    {
+      "title": "Best questions from publishers, universities, and 150+ Physician contributors"
+    },
+    {
+      "title": "Reduce preparation time by",
+      "percentage": "-18%"
+    },
+    {
+      "title": "Increase your pass rate with",
+      "percentage": "+8%"
+    }
+  ],
   "images": [
     {
       "title": "logo",

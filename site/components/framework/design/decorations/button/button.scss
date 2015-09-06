@@ -1,1 +1,8 @@
-@mixin button {}
+@mixin button {
+  border: 1px solid;
+  padding: $lem / 2 $lem;
+
+  + .button {
+    margin-left: $lem;
+  }
+}

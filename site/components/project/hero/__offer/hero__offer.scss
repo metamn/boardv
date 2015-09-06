@@ -1,1 +1,8 @@
-@mixin hero__offer {}
+@mixin hero__offer {
+  display: flex;
+  flex-wrap: no-wrap;
+
+  .button {
+    @include button;
+  }
+}

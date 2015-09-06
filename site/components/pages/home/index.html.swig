@@ -17,5 +17,8 @@
     {% set strapline = strapline %}
     {% set offer = offer %}
     {% include '../../project/hero/hero.html.swig' %}
+
+    {% set values = values %}
+    {% include '__values/home__values.html.swig' %}
   </body>
 </html>

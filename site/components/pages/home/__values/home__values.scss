@@ -1,0 +1,9 @@
+@mixin home__values {
+  .title {
+    display: flex;
+  }
+
+  .value {
+    @include value;
+  }
+}

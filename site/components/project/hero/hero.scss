@@ -2,4 +2,8 @@
   &__title {
     display: flex;
   }
+
+  &__offer {
+    @include hero__offer;
+  }
 }

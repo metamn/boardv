@@ -1,0 +1,5 @@
+@mixin value {
+  &__title {
+    @include value__title;
+  }
+}
