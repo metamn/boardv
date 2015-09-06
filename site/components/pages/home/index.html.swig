@@ -26,5 +26,8 @@
 
     {% set features = features %}
     {% include '../../project/features/features.html.swig' %}
+
+    {% set testimonials = testimonials %}
+    {% include '__testimonials/home__testimonials.html.swig' %}
   </body>
 </html>

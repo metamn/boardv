@@ -54,6 +54,23 @@
     "The very best questions brought together from the leading medical publishers, research institutions, and practicing physicians",
     "'Quick Hit' section highlights the must know questions for the boards"
   ],
+  "testimonials": [
+    {
+      "text": "Your test bank is the best test bank I've ever used! The questions are great and the answers are very thorough! I am extremely grateful for having access to your test questions! Thank you!",
+      "from": "Golnaz Alemi",
+      "role": "MD - Clinical Assistant Professor, Obstetrics and Gynecology"
+    },
+    {
+      "text": "Excellent Resource. Questions created around major Nursing topics are a plus for this review site. The explanations are unmatched; I had more notes from the explanations and better understanding of why a particular choice is the best and correct answer. An excellent resource, I will recommend this to anybody preparing to take Boards",
+      "from": "Gabriel Ohiani-Jegede",
+      "role": "Family Nurse Practitioner"
+    },
+    {
+      "text": "Thanks for the response! Just wanted to say the customer service and response to feedback I've seen with BoardVitals has been excellent. I can't imagine how many emails you get from 1000 stressed out residents like me about to take boards, so I appreciate it.",
+      "from": "Collier Gladin",
+      "role": "MD - Radiology"
+    }
+  ],
   "exam_groups": [
     {
       "title": "Medical Board Specialties",

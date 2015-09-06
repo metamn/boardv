@@ -25,4 +25,8 @@ body {
   .features {
     @include features;
   }
+
+  .home__testimonials {
+    @include home__testimonials;
+  }
 }

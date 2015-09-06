@@ -1,0 +1,5 @@
+@mixin testimonial {
+  &__author {
+    @include testimonial__author;
+  }
+}

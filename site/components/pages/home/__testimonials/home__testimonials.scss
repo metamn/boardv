@@ -1,0 +1,5 @@
+@mixin home__testimonials {
+  .testimonial {
+    @include testimonial;
+  }
+}
