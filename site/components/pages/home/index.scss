@@ -29,4 +29,8 @@ body {
   .home__testimonials {
     @include home__testimonials;
   }
+
+  .footer {
+    @include footer;
+  }
 }

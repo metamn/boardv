@@ -32,5 +32,8 @@
 
     {% set goodies = goodies %}
     {% include '__goodies/home__goodies.html.swig' %}
+
+    {% set links = links %}
+    {% include '../../project/footer/footer.html.swig' %}
   </body>
 </html>

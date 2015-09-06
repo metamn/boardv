@@ -85,6 +85,35 @@
       "text": "Scholarship Opportunities"
     }
   ],
+  "links": [
+    {
+      "title": "Home",
+      "url": ""
+    },
+    {
+      "title": "About",
+      "url": ""
+    },
+    {
+      "title": "Contact us",
+      "url": ""
+    },
+    {
+      "title": "Help / FAQ",
+      "url": ""
+    },
+    {
+      "title": "Blog",
+      "url": ""
+    },
+    {
+      "title": "Terms and conditions",
+      "url": ""
+    }
+  ],
+  "social": [
+    
+  ],
   "exam_groups": [
     {
       "title": "Medical Board Specialties",
