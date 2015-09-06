@@ -71,6 +71,20 @@
       "role": "MD - Radiology"
     }
   ],
+  "goodies": [
+    {
+      "title": "Guaranteed",
+      "text": "Guaranteed Pass"
+    },
+    {
+      "title": "Referrals",
+      "text": "Receive a Discount on Your Subscription"
+    },
+    {
+      "title": "Scholarships",
+      "text": "Scholarship Opportunities"
+    }
+  ],
   "exam_groups": [
     {
       "title": "Medical Board Specialties",

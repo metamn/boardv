@@ -29,5 +29,8 @@
 
     {% set testimonials = testimonials %}
     {% include '__testimonials/home__testimonials.html.swig' %}
+
+    {% set goodies = goodies %}
+    {% include '__goodies/home__goodies.html.swig' %}
   </body>
 </html>
