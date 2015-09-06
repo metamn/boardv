@@ -21,7 +21,7 @@
     {% set values = values %}
     {% include '__values/home__values.html.swig' %}
 
-    {% set exams = exams %}
+    {% set exam_groups = exam_groups %}
     {% include '__exams/home__exams.html.swig' %}
   </body>
 </html>

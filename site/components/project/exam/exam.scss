@@ -1,17 +1,9 @@
 @mixin exam {
-  &__card {
-    .items {
-      .item {
-        &__plan {
-          .price {
-            @include price;
-          }
+  &__title {
+    display: flex;
+  }
 
-          .action {
-            @include action;
-          }
-        }
-      }
-    }
+  &__cards {
+    @include exam__cards;
   }
 }

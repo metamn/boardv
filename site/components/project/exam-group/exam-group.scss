@@ -1,0 +1,13 @@
+@mixin exam-group {
+  &__title {
+    display: flex;
+  }
+
+  &__plans {
+    @include exam-group__plans;
+  }
+
+  &__exams {
+    @include exam-group__exams;
+  }
+}

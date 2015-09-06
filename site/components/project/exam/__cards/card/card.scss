@@ -1,0 +1,9 @@
+@mixin card {
+  &__price {
+    @include card__price;
+  }
+
+  &__action {
+    @include card__action;
+  }
+}

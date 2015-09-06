@@ -1,0 +1,5 @@
+@mixin exam__cards {
+  .card {
+    @include card;
+  }
+}

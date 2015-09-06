@@ -1,0 +1,5 @@
+@mixin exam-group__exams {
+  .exam {
+    @include exam;
+  }
+}

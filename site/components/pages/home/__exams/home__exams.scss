@@ -3,7 +3,7 @@
     display: flex;
   }
 
-  .exam {
-    @include exam;
+  .exam-group {
+    @include exam-group;
   }
 }

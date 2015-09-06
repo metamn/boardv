@@ -1,9 +1,8 @@
 <section class="home__exams">
   <h3 class="title">See exams and pricing</h3>
 
-  {% for exam in exams %}
-    {% set exam = exam %}
-    {% include '../../../project/exam/exam.html.swig' %}
+  {% for exam_group in exam_groups %}
+    {% set exam_group = exam_group %}
+    {% include '../../../project/exam-group/exam-group.html.swig' %}
   {% endfor %}
-
 </section>
