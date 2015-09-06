@@ -1,0 +1,9 @@
+@mixin home__exams {
+  .title {
+    display: flex;
+  }
+
+  .exam {
+    @include exam;
+  }
+}

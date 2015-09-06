@@ -1,0 +1,9 @@
+@mixin exam {
+  &__price {
+    @include exam__price;
+  }
+
+  &__action {
+    @include exam__action;
+  }
+}

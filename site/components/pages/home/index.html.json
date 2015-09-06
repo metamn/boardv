@@ -45,6 +45,135 @@
       "percentage": "+8%"
     }
   ],
+  "exams": [
+    {
+      "title": "Medical Board Specialties",
+      "items": [
+        {
+          "title": "Cardiology",
+          "pricing": ["129", "229", "399"]
+        },
+        {
+          "title": "Child Neurology",
+          "pricing": ["129", "229", "399"]
+        },
+        {
+          "title": "Child Psychiatry",
+          "pricing": ["129", "229", "399"]
+        },
+        {
+          "title": "Dermatology",
+          "pricing": ["99", "229", "399"]
+        },
+        {
+          "title": "Child Psychiatry",
+          "pricing": ["129", "229", "399"]
+        },
+        {
+          "title": "Echo",
+          "pricing": ["99", "229", "349"]
+        },
+        {
+          "title": "Emergency Medicine",
+          "pricing": ["99", "229", "399"]
+        },
+        {
+          "title": "ENT",
+          "pricing": ["149", "249", "399"]
+        },
+        {
+          "title": "Family Medicine",
+          "pricing": ["99", "229", "399"]
+        },
+        {
+          "title": "GI",
+          "pricing": ["99", "229", "379"]
+        },
+        {
+          "title": "Internal Medicine",
+          "pricing": ["99", "229", "399"]
+        },
+        {
+          "title": "Interventional Cardiology",
+          "pricing": ["129", "229", "349"]
+        },
+        {
+          "title": "Neurology",
+          "pricing": ["129", "229", "399"]
+        }
+      ]
+    },
+    {
+      "title": "Medical Exams",
+      "items": [
+        {
+          "title": "USMLE Step 1",
+          "pricing": ["59", "109", "179"]
+        },
+        {
+          "title": "USMLE Step 2",
+          "pricing": ["79", "129", "199"]
+        },
+        {
+          "title": "USMLE Step 3",
+          "pricing": ["79", "129", "199"]
+        },
+        {
+          "title": "COMLEX Level 1 ",
+          "pricing": ["79", "129", "199"]
+        }
+      ]
+    },
+    {
+      "title": "Dental Exams",
+      "items": [
+        {
+          "title": "NBDE I",
+          "pricing": ["69", "159", "219"]
+        },
+        {
+          "title": "NBDE II",
+          "pricing": ["69", "159", "219"]
+        }
+      ]
+    },
+    {
+      "title": "Nursing Exams",
+      "items": [
+        {
+          "title": "Family Nurse Practitioner",
+          "pricing": ["79", "99", "129"]
+        },
+        {
+          "title": "NCLEX PN",
+          "pricing": ["39", "59", "89"],
+          "promotions": ["49", "79", "129"]
+        },
+        {
+          "title": "NCLEX RN",
+          "pricing": ["39", "59", "89"],
+          "promotions": ["49", "69", "99"]
+        }
+      ]
+    },
+    {
+      "title": "Other Exams",
+      "items": [
+        {
+          "title": "NAPLEX",
+          "pricing": ["59", "99", "149"]
+        },
+        {
+          "title": "PANCE",
+          "pricing": ["39", "59", "89"]
+        },
+        {
+          "title": "Surgical Tech",
+          "pricing": ["49", "79", "129"]
+        }
+      ]
+    }
+  ],
   "images": [
     {
       "title": "logo",

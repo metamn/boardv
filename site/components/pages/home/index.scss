@@ -7,15 +7,15 @@ body {
     @include header;
   }
 
-  &.home {
-
-  }
-
   .hero {
     @include hero;
   }
 
   .home__values {
     @include home__values;
+  }
+
+  .home__exams {
+    @include home__exams;
   }
 }

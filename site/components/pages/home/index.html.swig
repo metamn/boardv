@@ -20,5 +20,8 @@
 
     {% set values = values %}
     {% include '__values/home__values.html.swig' %}
+
+    {% set exams = exams %}
+    {% include '__exams/home__exams.html.swig' %}
   </body>
 </html>
