@@ -18,12 +18,10 @@
         <tr class="item">
           <td class="item__title">{{ item.title }}</td>
 
-          <td class="item__trial">
-            <td class="item__plan">
-              {% set price = "0" %}
-              {% include 'price/price.html.swig' %}
-              {% include 'action/action.html.swig' %}
-            </td>
+          <td class="item__plan">
+            {% set price = "0" %}
+            {% include 'price/price.html.swig' %}
+            {% include 'action/action.html.swig' %}
           </td>
 
           {% for price in item.pricing %}

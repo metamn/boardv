@@ -1,9 +1,17 @@
 @mixin exam {
-  &__price {
-    @include exam__price;
-  }
+  &__table {
+    .items {
+      .item {
+        &__plan {
+          .price {
+            @include price;
+          }
 
-  &__action {
-    @include exam__action;
+          .action {
+            @include action;
+          }
+        }
+      }
+    }
   }
 }
