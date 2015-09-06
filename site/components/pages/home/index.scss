@@ -1,14 +1,9 @@
 body {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  @include semantic-html5-titles;
+  @include reset;
+  @include text-style(default);
 
-  figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @include figure($figcaption: from-title);
-    padding: 2em;
+  .header {
+    @include header;
   }
 }

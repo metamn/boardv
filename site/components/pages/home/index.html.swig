@@ -11,11 +11,7 @@
   </head>
 
   <body>
-
-    {% for image in home.images %}
-      {% set image = image %}
-      {% include '../../framework/structure/figure/figure.html.swig' %}
-    {% endfor %}
-
+    {% set image = images | first %}
+    {% include '../../project/header/header.html.swig' %}
   </body>
 </html>

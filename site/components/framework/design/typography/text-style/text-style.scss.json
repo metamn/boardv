@@ -1,0 +1,23 @@
+{
+  "text_styles": [
+    {
+      "name": "Default",
+      "description": "The basic settings for a text.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "arial-regular"
+        },
+        {
+          "name": "scale",
+          "value": "default"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ]
+    }
+  ]
+}

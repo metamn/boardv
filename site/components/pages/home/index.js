@@ -1,2 +1,0 @@
-// Empty
-var f = 'Empty';

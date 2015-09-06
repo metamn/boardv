@@ -1,0 +1,5 @@
+@mixin header {
+  &__logo {
+    @include figure;
+  }
+}
