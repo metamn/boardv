@@ -6,4 +6,8 @@ body {
   .header {
     @include header;
   }
+
+  .hero {
+    @include hero;
+  }
 }

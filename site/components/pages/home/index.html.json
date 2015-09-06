@@ -1,4 +1,31 @@
 {
+  "strapline": [
+    "Question Banks for the Medical Specialty Boards",
+    "Thousands of high quality board review questions"
+  ],
+  "offer": [
+    {
+      "title": "Board Review",
+      "link": {
+        "title": "Board Review",
+        "url": ""
+      }
+    },
+    {
+      "title": "MOC",
+      "link": {
+        "title": "MOC",
+        "url": ""
+      }
+    },
+    {
+      "title": "CME",
+      "link": {
+        "title": "CME",
+        "url": ""
+      }
+    }
+  ],
   "images": [
     {
       "title": "logo",

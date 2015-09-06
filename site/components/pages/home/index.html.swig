@@ -13,5 +13,9 @@
   <body>
     {% set image = images | first %}
     {% include '../../project/header/header.html.swig' %}
+
+    {% set strapline = strapline %}
+    {% set offer = offer %}
+    {% include '../../project/hero/hero.html.swig' %}
   </body>
 </html>
