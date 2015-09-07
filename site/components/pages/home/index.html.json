@@ -98,10 +98,6 @@
   ],
   "links": [
     {
-      "title": "Home",
-      "url": ""
-    },
-    {
       "title": "About",
       "url": ""
     },
@@ -122,8 +118,33 @@
       "url": ""
     }
   ],
+  "account": [
+    {
+      "title": "Register",
+      "url": ""
+    },
+    {
+      "title": "Sign in",
+      "url": ""
+    }
+  ],
   "social": [
-
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/boardvitals"
+    },
+    {
+      "title": "Facebook",
+      "url": "https://www.facebook.com/boardvitals"
+    },
+    {
+      "title": "Google+",
+      "url": "https://plus.google.com/102002855995306255246/posts"
+    },
+    {
+      "title": "Blog",
+      "url": "http://www.boardvitals.com/blog/"
+    }
   ],
   "exam_groups": [
     {

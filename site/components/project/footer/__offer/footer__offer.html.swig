@@ -1,8 +1,9 @@
-<article class="footer__products">
-  <h3 class="title">Products and services</h3>
+<article  class="footer__offer">
+  <h3 class="title">Offer</h3>
 
   <ul>
-    {% for link in products %}
+    {% for item in offer %}
+      {% set link = item.link %}
       <li>{% include '../../../framework/design/typography/elements/link/link.html.swig' %}</li>
     {% endfor %}
   </ul>

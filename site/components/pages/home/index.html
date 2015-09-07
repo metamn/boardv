@@ -3139,24 +3139,76 @@
 
 
     
+    
     <section class="footer">
   <h3 class="footer__title">Footer</h3>
 
-  <article class="footer__products">
-  <h3 class="title">Products and services</h3>
+  
+  <aside class="footer__logo">
+  <h3>Logo</h3>
 
-  <ul>
-    
-  </ul>
-</article>
+  
+  <figure  class="header__logo" >
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- Naming convention for responsive images -->
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Images are served from /site also for /styleguide -->
+  
+  
+
+
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/logo_desktop.png, /assets/images/logo_desktop2x.png 2x">
+    <source media="(min-width: 1199px)" srcset="/assets/images/logo_laptop.png, /assets/images/logo_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/logo_tablet.png, /assets/images/logo_tablet2x.png 2x">
+    <source srcset="/assets/images/logo_mobile.png, /assets/images/logo_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <img srcset="/assets/images/logo_desktop.png" alt="logo">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    logo
+  </figcaption>
+
+  
+</figure>
+
+</aside>
 
 
   
-  <article class="footer__links">
-  <h3 class="title">Links</h3>
+  <article  class="footer__offer">
+  <h3 class="title">Offer</h3>
 
   <ul>
     
+      
       <li>
 
   
@@ -3173,8 +3225,58 @@
 
   
 
-  <a class="link" href="/home" title="Home">Home</a>
+  <a class="link" href="/board-review" title="Board Review">Board Review</a>
 </li>
+    
+      
+      <li>
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link" href="/moc" title="MOC">MOC</a>
+</li>
+    
+      
+      <li>
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link" href="/cme" title="CME">CME</a>
+</li>
+    
+  </ul>
+</article>
+
+
+  
+  <article class="footer__links">
+  <h3 class="title">Links</h3>
+
+  <ul>
     
       <li>
 
@@ -3281,9 +3383,85 @@
 
   <ul>
     
+      <li>
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link" href="/https://twitter.com/boardvitals" title="Twitter">Twitter</a>
+</li>
+    
+      <li>
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link" href="/https://www.facebook.com/boardvitals" title="Facebook">Facebook</a>
+</li>
+    
+      <li>
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link" href="/https://plus.google.com/102002855995306255246/posts" title="Google+">Google+</a>
+</li>
+    
+      <li>
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link" href="/http://www.boardvitals.com/blog/" title="Blog">Blog</a>
+</li>
+    
   </ul>
 </article>
-  
+
 </section>
 
   </body>
