@@ -1,7 +1,9 @@
 @mixin header {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
+
   width: 100vw;
 
   &__logo {
@@ -10,5 +12,9 @@
 
   .menu {
     @include menu;
+  }
+
+  &.portrait {
+    @include header--portrait;
   }
 }

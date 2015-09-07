@@ -1,0 +1,15 @@
+@mixin menu__items--portrait {
+  display: none;
+  flex-direction: column;
+
+  &.active {
+    display: flex;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: $lem;
+  }
+}

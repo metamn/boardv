@@ -13,3 +13,5 @@
   {% set social = social %}
   {% include '__social/footer__social.html.swig' %}
 </section>
+
+<script src="{{ site.url }}assets/scripts/site.min.js"></script>

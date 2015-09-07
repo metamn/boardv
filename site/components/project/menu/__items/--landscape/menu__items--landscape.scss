@@ -1,0 +1,21 @@
+@mixin menu__items--landscape {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+  }
+
+  nav + nav,
+  .link + .link {
+    margin-left: $lem;
+  }
+
+  .button {
+    @include button;
+  }
+}

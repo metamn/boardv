@@ -1,0 +1,17 @@
+@mixin menu__trigger {
+  display: none;
+  cursor: pointer;
+
+  @include portrait {
+    display: flex;
+
+    &--open,
+    &--close {
+      display: none;
+
+      &.active {
+        display: flex;
+      }
+    }
+  }
+}
