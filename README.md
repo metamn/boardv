@@ -2,5 +2,6 @@
 
 A mockup for the BoardVitals website.
 
-Content (c) Copyright by their respective owners (BoardVital, iStockPhoto).
-HTML, CSS, and JS (c) Copyright Bartus Csongor.
+Content -- &copy; Copyright by their respective owners (BoardVital, iStockPhoto).
+
+Code -- HTML, CSS, and JS -- &copy; Copyright by Bartus Csongor.
