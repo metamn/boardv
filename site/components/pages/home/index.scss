@@ -4,7 +4,7 @@ body {
   @include text-style(default);
 
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 
   padding: $lem;
 
@@ -30,6 +30,10 @@ body {
 
   .home__testimonials {
     @include home__testimonials;
+  }
+
+  .home__goodies {
+    @include home__goodies;
   }
 
   .footer {

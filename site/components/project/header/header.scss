@@ -1,4 +1,6 @@
 @mixin header {
+  width: 100vw;
+  
   &__logo {
     @include figure;
   }

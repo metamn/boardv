@@ -1,4 +1,8 @@
 @mixin home__testimonials {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+
   .testimonial {
     @include testimonial;
   }

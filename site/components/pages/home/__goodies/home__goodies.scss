@@ -1,1 +1,9 @@
-@mixin home__goodies {}
+@mixin home__goodies {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+
+  .goodie {
+    @include goodie;
+  }
+}

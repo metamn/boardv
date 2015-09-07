@@ -1,4 +1,7 @@
 @mixin testimonial {
+  width: 28vw;
+  padding: $lem;
+  
   &__author {
     @include testimonial__author;
   }

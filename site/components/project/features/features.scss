@@ -1,4 +1,12 @@
 @mixin features {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+
+  &__title {
+    display: flex;
+  }
+
   &__video {
     @include features__video;
   }

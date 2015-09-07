@@ -1,4 +1,8 @@
 @mixin home__exams {
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+
   .title {
     display: flex;
   }
