@@ -18,6 +18,17 @@
           "value": "black-on-white"
         }
       ]
+    },
+    {
+      "name": "Hero",
+      "description": "Headline for the hero text.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ]
     }
   ]
 }

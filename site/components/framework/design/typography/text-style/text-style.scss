@@ -27,6 +27,15 @@
     
   }
   
+  // Hero
+  // - Headline for the hero text.
+  @if ($variant == 'hero') {
+    @include scale(large-1);
+    
+    
+    
+  }
+  
 }
 
 
@@ -36,6 +45,13 @@
   @include font(arial-regular);
   @include scale(default);
   @include colors(black-on-white);
+  
+  
+  
+}
+
+.text-style--hero {
+  @include scale(large-1);
   
   
   

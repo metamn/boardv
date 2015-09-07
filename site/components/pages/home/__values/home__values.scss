@@ -1,4 +1,18 @@
 @mixin home__values {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  min-height: 90vh;
+
+  .title, .value {
+    width: 28vw;
+    height: 30vh;
+
+    padding: $lem;
+    border: 1px solid;
+  }
+
   .title {
     display: flex;
   }
