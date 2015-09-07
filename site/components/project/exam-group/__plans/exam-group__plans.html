@@ -1,8 +1,8 @@
 <aside class="exam-group__plans">
   <h3>Plans</h3>
 
-  <div class="exam-group__plans--trial">Trial</div>
-  <div class="exam-group__plans--one-month">1 Month</div>
-  <div class="exam-group__plans--three-month">3 Month</div>
-  <div class="exam-group__plans--six-month">6 Month</div>
+  <div class="plan">Trial</div>
+  <div class="plan">1 Month</div>
+  <div class="plan">3 Month</div>
+  <div class="plan">6 Month</div>
 </aside>

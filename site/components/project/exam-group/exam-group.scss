@@ -1,4 +1,8 @@
 @mixin exam-group {
+  @include exam-group__layout;
+
+  padding: $lem 0;
+
   &__title {
     display: flex;
   }
