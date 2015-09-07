@@ -16,6 +16,7 @@
 
     {% set strapline = strapline %}
     {% set offer = offer %}
+    {% set image = images[1] %}
     {% include '../../project/hero/hero.html.swig' %}
 
     {% set values = values %}

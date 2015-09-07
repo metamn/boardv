@@ -3,6 +3,17 @@
     "Question Banks for the Medical Specialty Boards",
     "Thousands of high quality board review questions"
   ],
+  "images": [
+    {
+      "title": "logo",
+      "name": "logo"
+    },
+    {
+      "title": "hero",
+      "name": "hero",
+      "extension": ".jpg"
+    }
+  ],
   "offer": [
     {
       "title": "Board Review",
@@ -112,7 +123,7 @@
     }
   ],
   "social": [
-    
+
   ],
   "exam_groups": [
     {
@@ -241,12 +252,6 @@
           "pricing": ["49", "79", "129"]
         }
       ]
-    }
-  ],
-  "images": [
-    {
-      "title": "logo",
-      "name": "logo"
     }
   ]
 }
