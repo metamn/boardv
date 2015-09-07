@@ -1,9 +1,0 @@
-@mixin menu--portrait {
-  @include portrait {
-    flex-direction: column;
-    
-    &__items {
-      display: none;
-    }
-  }
-}

@@ -11,14 +11,14 @@ var menu = function() {
     this.classList.remove('active');
     triggerClose.classList.add('active');
     menuItems.classList.add('active');
-    header.classList.add('portrait');
+    header.classList.add('opened');
   }
 
   function clickTriggerClose(event) {
     this.classList.remove('active');
     triggerOpen.classList.add('active');
     menuItems.classList.remove('active');
-    header.classList.remove('portrait');
+    header.classList.remove('opened');
   }
 }
 

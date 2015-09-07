@@ -1,6 +1,5 @@
 @mixin header {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 
@@ -10,11 +9,10 @@
     @include figure;
   }
 
-  .menu {
-    @include menu;
-  }
+  @include menu;
 
-  &.portrait {
-    @include header--portrait;
+  // when the mobile menu is opened 
+  &.opened {
+    flex-wrap: wrap;
   }
 }

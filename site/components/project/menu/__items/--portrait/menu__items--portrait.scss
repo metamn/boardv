@@ -1,6 +1,7 @@
 @mixin menu__items--portrait {
   display: none;
   flex-direction: column;
+  flex-basis: 100%;
 
   &.active {
     display: flex;

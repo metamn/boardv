@@ -1,4 +1,6 @@
-<div class="menu__items">
+<aside class="menu__items">
+  <h3>Menu items</h3>
+  
   <nav class="offer">
     <h3>Offer</h3>
 
@@ -28,4 +30,4 @@
       {% include '../../../framework/design/decorations/button/button.html.swig' %}
     {% endfor %}
   </nav>
-</div>
+</aside>
