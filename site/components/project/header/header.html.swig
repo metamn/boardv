@@ -4,4 +4,6 @@
   {% set image = image %}
   {% set image.class = 'header__logo' %}
   {% include '../../framework/structure/figure/figure.html.swig' %}
+
+  {% include '../menu/menu.html.swig' %}
 </header>

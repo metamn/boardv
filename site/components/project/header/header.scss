@@ -1,7 +1,14 @@
 @mixin header {
+  display: flex;
+  flex-wrap: no-wrap;
+  justify-content: space-between;
   width: 100vw;
-  
+
   &__logo {
     @include figure;
+  }
+
+  .menu {
+    @include menu;
   }
 }
