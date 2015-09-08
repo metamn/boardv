@@ -1,0 +1,6 @@
+@mixin features--portrait {
+  @include portrait {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+}

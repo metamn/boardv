@@ -1,11 +1,17 @@
 @mixin home__exams {
   display: flex;
   flex-direction: column;
-  width: 45vw;
+
+
+  flex-basis: 47.5%;
+  @include portrait {
+    flex-basis: 100%;
+  }
 
   .title {
     display: flex;
     @include text-style(title);
+    margin: $lem 0;
   }
 
   .exam-group {
