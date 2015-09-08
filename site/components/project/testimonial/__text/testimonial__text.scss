@@ -1,0 +1,6 @@
+@mixin testimonial__text {
+  .blockquote {
+    @include blockquote;
+    @include text-style(title);
+  }
+}
