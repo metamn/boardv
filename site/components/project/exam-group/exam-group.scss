@@ -5,6 +5,8 @@
 
   &__title {
     display: flex;
+    border-bottom: 1px solid;
+    font-weight: bold;
   }
 
   &__plans {

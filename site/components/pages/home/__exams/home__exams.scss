@@ -5,6 +5,7 @@
 
   .title {
     display: flex;
+    @include text-style(title);
   }
 
   .exam-group {

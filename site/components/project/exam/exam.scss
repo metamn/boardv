@@ -1,8 +1,10 @@
 @mixin exam {
   display: flex;
+  padding: $lem / 2 0;
 
   &__title {
     display: flex;
+    @include font(times-new-roman-italic);
   }
 
   &__cards {

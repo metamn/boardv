@@ -54,6 +54,21 @@
           "value": "1.9684"
         }
       ]
+    },
+    {
+      "name": "Title",
+      "description": "Title.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "times-new-roman-italic"
+        },
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ]
     }
   ]
 }

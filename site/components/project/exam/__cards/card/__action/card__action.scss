@@ -1,1 +1,5 @@
-@mixin card__action {}
+@mixin card__action {
+  .button {
+    @include button(gray-on-white);
+  }
+}

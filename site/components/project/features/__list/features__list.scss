@@ -1,1 +1,6 @@
-@mixin features__list {}
+@mixin features__list {
+  .title {
+    display: flex;
+    @include text-style(title);
+  }
+}

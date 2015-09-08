@@ -1,3 +1,6 @@
 @mixin exam-group__plans {
-  
+  .plan {
+    @include colors(white-on-black);
+    padding: $lem / 4;
+  }
 }

@@ -48,6 +48,16 @@
     
   }
   
+  // Title
+  // - Title.
+  @if ($variant == 'title') {
+    @include font(times-new-roman-italic);
+    @include scale(large-1);
+    
+    
+    
+  }
+  
 }
 
 
@@ -75,6 +85,14 @@
   @include scale(small-1);
   
   line-height: 1.9684;
+  
+  
+}
+
+.text-style--title {
+  @include font(times-new-roman-italic);
+  @include scale(large-1);
+  
   
   
 }

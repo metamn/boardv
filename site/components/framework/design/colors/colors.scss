@@ -9,8 +9,11 @@
 // Main color
 $white: #fff;
 
-// Brand color
+// Main color
 $black: #000;
+
+// Secondary color
+$gray: #ccc;
 
 // Brand color
 $blue: #0d3f83;
@@ -33,6 +36,12 @@ $indigoblue: #003d39;
 
   @if ($name == 'black-on-white') {
     color: $black;
+    background-color: $white;
+    
+  }
+
+  @if ($name == 'gray-on-white') {
+    color: $gray;
     background-color: $white;
     
   }
@@ -61,6 +70,10 @@ $indigoblue: #003d39;
   background: #000;
 };
 
+.gray {
+  background: #ccc;
+};
+
 .blue {
   background: #0d3f83;
 };
@@ -86,6 +99,12 @@ $indigoblue: #003d39;
 
 .black-on-white {
   color: $black;
+  background-color: $white;
+  
+}
+
+.gray-on-white {
+  color: $gray;
   background-color: $white;
   
 }

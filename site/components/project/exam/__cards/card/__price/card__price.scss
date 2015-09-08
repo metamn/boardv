@@ -1,1 +1,10 @@
-@mixin card__price {}
+@mixin card__price {
+  &--free {
+    color: $green;
+  }
+
+  &--paid,
+  .currency {
+    color: $orange;
+  }
+}

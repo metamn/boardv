@@ -1,1 +1,6 @@
-@mixin features__video {}
+@mixin features__video {
+  .title {
+    display: flex;
+    @include text-style(title);
+  }
+}

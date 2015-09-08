@@ -15,6 +15,13 @@
 // - styles and weights: Regular, Bold, Italic, 
 
 
+// Times New Roman
+// - The secondary typeface, serif
+// - character set: English, with OpenType Features
+// - served from Typekit
+// - styles and weights: Regular, Bold, Italic, 
+
+
 
 
 // The font mixin
@@ -38,6 +45,24 @@
     font-style: italic;
   }
   
+  @if ($variant == 'times-new-roman-regular') {
+    font-family: 'times-new-roman', serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'times-new-roman-bold') {
+    font-family: 'times-new-roman', serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'times-new-roman-italic') {
+    font-family: 'times-new-roman', serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 }
 
 
@@ -57,6 +82,24 @@
 
 .arial-italic {
   font-family: 'arial', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.times-new-roman-regular {
+  font-family: 'times-new-roman', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.times-new-roman-bold {
+  font-family: 'times-new-roman', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.times-new-roman-italic {
+  font-family: 'times-new-roman', serif;
   font-weight: 400;
   font-style: italic;
 }
