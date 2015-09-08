@@ -2,5 +2,19 @@
   display: flex;
   flex-wrap: no-wrap;
   justify-content: space-between;
+  align-items: center;
   width: 100vw;
+
+  border-top: $lem / 2 double;
+  padding: $lem 0;
+
+  @include text-style(navigation);
+
+  .link {
+    @include link(black-on-white);
+  }
+
+  .ul {
+    @include ul;
+  }
 }
