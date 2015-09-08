@@ -1,4 +1,4 @@
-@mixin button($color-scheme: white-on-black, $color-scheme-hover: black-on-white) {
+@mixin button($color-scheme: black-on-white, $color-scheme-hover: white-on-black) {
   @include colors($color-scheme);
   @include text-style(navigation);
   @include button--hover($color-scheme-hover);

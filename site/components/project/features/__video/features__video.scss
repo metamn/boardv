@@ -3,4 +3,8 @@
     display: flex;
     @include text-style(title);
   }
+
+  .container {
+    @include intrinsic-ratio(16, 9, '.video');
+  }
 }
