@@ -8,7 +8,32 @@
     {
       "name": "black",
       "value": "#000",
-      "description": "Main color"
+      "description": "Brand color"
+    },
+    {
+      "name": "blue",
+      "value": "#0d3f83",
+      "description": "Brand color"
+    },
+    {
+      "name": "lightblue",
+      "value": "#0083c4",
+      "description": "Brand color"
+    },
+    {
+      "name": "orange",
+      "value": "#fb981e",
+      "description": "Brand color"
+    },
+    {
+      "name": "green",
+      "value": "#90cd40",
+      "description": "Brand color"
+    },
+    {
+      "name": "indigoblue",
+      "value": "#003d39",
+      "description": "Brand color"
     }
   ],
   "color_pairs": [
@@ -35,6 +60,19 @@
         {
           "name": "background-color",
           "value": "$black"
+        }
+      ]
+    },
+    {
+      "name": "white-on-indigoblue",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$indigoblue"
         }
       ]
     }

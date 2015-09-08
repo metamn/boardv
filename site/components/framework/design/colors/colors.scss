@@ -9,8 +9,23 @@
 // Main color
 $white: #fff;
 
-// Main color
+// Brand color
 $black: #000;
+
+// Brand color
+$blue: #0d3f83;
+
+// Brand color
+$lightblue: #0083c4;
+
+// Brand color
+$orange: #fb981e;
+
+// Brand color
+$green: #90cd40;
+
+// Brand color
+$indigoblue: #003d39;
 
 
 // Color combinations. Colors are not used standalone but in pairs
@@ -28,6 +43,12 @@ $black: #000;
     
   }
 
+  @if ($name == 'white-on-indigoblue') {
+    color: $white;
+    background-color: $indigoblue;
+    
+  }
+
 }
 
 // Color classes
@@ -38,6 +59,26 @@ $black: #000;
 
 .black {
   background: #000;
+};
+
+.blue {
+  background: #0d3f83;
+};
+
+.lightblue {
+  background: #0083c4;
+};
+
+.orange {
+  background: #fb981e;
+};
+
+.green {
+  background: #90cd40;
+};
+
+.indigoblue {
+  background: #003d39;
 };
 
 
@@ -52,6 +93,12 @@ $black: #000;
 .white-on-black {
   color: $white;
   background-color: $black;
+  
+}
+
+.white-on-indigoblue {
+  color: $white;
+  background-color: $indigoblue;
   
 }
 

@@ -1,4 +1,10 @@
 @mixin menu {
+  @include text-style(navigation);
+
+  .link {
+    @include link(black-on-white);
+  }
+
   .menu__trigger {
     @include menu__trigger;
   }

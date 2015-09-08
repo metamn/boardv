@@ -7,7 +7,7 @@
   background-size: cover;
 
   &__text {
-    @include colors(white-on-black);
+    @include colors(white-on-indigoblue);
     opacity: .8;
     padding: $lem;
     max-width: 28vw;
@@ -34,7 +34,7 @@
       flex-wrap: no-wrap;
 
       .button {
-        @include button;
+        @include button(white-on-indigoblue);
       }
     }
   }
