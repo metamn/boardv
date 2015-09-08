@@ -93,6 +93,19 @@
           "value": "$indigoblue"
         }
       ]
+    },
+    {
+      "name": "indigoblue-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$indigoblue"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
+        }
+      ]
     }
   ]
 }

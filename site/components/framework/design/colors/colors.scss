@@ -58,6 +58,12 @@ $indigoblue: #003d39;
     
   }
 
+  @if ($name == 'indigoblue-on-white') {
+    color: $indigoblue;
+    background-color: $white;
+    
+  }
+
 }
 
 // Color classes
@@ -118,6 +124,12 @@ $indigoblue: #003d39;
 .white-on-indigoblue {
   color: $white;
   background-color: $indigoblue;
+  
+}
+
+.indigoblue-on-white {
+  color: $indigoblue;
+  background-color: $white;
   
 }
 

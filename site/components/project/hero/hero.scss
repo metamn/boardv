@@ -34,7 +34,7 @@
       flex-wrap: no-wrap;
 
       .button {
-        @include button(white-on-indigoblue);
+        @include button(white-on-indigoblue, indigoblue-on-white);
       }
     }
   }
