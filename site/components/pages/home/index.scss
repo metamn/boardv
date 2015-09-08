@@ -14,12 +14,10 @@ body {
 
   .hero {
     @include hero;
-    display: none;
   }
 
   .home__values {
     @include home__values;
-    display: none;
   }
 
   .home__exams {
