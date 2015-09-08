@@ -1,7 +1,10 @@
 @mixin features {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   width: 45vw;
+
+  padding: $lem;
 
   &__video {
     @include features__video;

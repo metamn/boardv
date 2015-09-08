@@ -1,6 +1,18 @@
 @mixin features__list {
+  padding: $lem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   .title {
     display: flex;
     @include text-style(title);
+  }
+
+  .ol {
+    @include ol;
+    max-width: 35em;
+    padding: $lem * 2;
   }
 }
