@@ -1,6 +1,13 @@
-@mixin button {
+@mixin button($color-scheme: white-on-black) {
+  @include colors($color-scheme);
+  @include text-style(navigation);
+
   border: 1px solid;
-  padding: $lem / 2 $lem;
+  padding: $lem / 4 $lem / 2;
+
+  .link {
+    @include link($color-scheme);
+  }
 
   + .button {
     margin-left: $lem;

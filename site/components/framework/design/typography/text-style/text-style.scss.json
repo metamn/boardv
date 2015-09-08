@@ -25,8 +25,33 @@
       "based_on": "Nimbus Sans",
       "mixins": [
         {
+          "name": "font",
+          "value": "arial-bold"
+        },
+        {
           "name": "scale",
-          "value": "large-1"
+          "value": "large-2"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "description": "navigation",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "uppercase",
+          "value": "1.1px"
+        },
+        {
+          "name": "scale",
+          "value": "small-1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "line-height",
+          "value": "1.9684"
         }
       ]
     }

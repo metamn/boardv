@@ -30,8 +30,20 @@
   // Hero
   // - Headline for the hero text.
   @if ($variant == 'hero') {
-    @include scale(large-1);
+    @include font(arial-bold);
+    @include scale(large-2);
     
+    
+    
+  }
+  
+  // Navigation
+  // - navigation
+  @if ($variant == 'navigation') {
+    @include uppercase(1.1px);
+    @include scale(small-1);
+    
+    line-height: 1.9684;
     
     
   }
@@ -51,8 +63,18 @@
 }
 
 .text-style--hero {
-  @include scale(large-1);
+  @include font(arial-bold);
+  @include scale(large-2);
   
+  
+  
+}
+
+.text-style--navigation {
+  @include uppercase(1.1px);
+  @include scale(small-1);
+  
+  line-height: 1.9684;
   
   
 }

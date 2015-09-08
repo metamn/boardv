@@ -22,6 +22,12 @@ $black: #000;
     
   }
 
+  @if ($name == 'white-on-black') {
+    color: $white;
+    background-color: $black;
+    
+  }
+
 }
 
 // Color classes
@@ -40,6 +46,12 @@ $black: #000;
 .black-on-white {
   color: $black;
   background-color: $white;
+  
+}
+
+.white-on-black {
+  color: $white;
+  background-color: $black;
   
 }
 

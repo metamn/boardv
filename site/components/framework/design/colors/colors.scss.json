@@ -24,6 +24,19 @@
           "value": "$white"
         }
       ]
+    },
+    {
+      "name": "white-on-black",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$black"
+        }
+      ]
     }
   ]
 }

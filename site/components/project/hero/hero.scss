@@ -1,29 +1,41 @@
 @mixin hero {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   min-height: 80vh;
   width: 100vw;
 
   background: url(../images/hero_desktop.jpg) no-repeat center center fixed;
   background-size: cover;
 
-  padding: $lem;
+  &__text {
+    @include colors(white-on-black);
+    opacity: .8;
+    padding: $lem;
+    max-width: 28vw;
+    margin-bottom: $lem * 2;
 
+    height: calc(100% - #{$lem * 2});
+    overflow: hidden;
 
-  &__title {
     display: flex;
-    font-size: 2.5em;
-    font-weight: bold;
-    max-width: 10em;
-    text-shadow: 1px 1px 1px $white;
-  }
+    flex-direction: column;
+    justify-content: center;
 
-  &__subtitle {
-    padding: $lem 0;
-  }
+    .title {
+      display: flex;
+      @include text-style(hero);
+    }
 
-  &__offer {
-    @include hero__offer;
+    .subtitle {
+      padding: $lem 0;
+    }
+
+    .offer {
+      display: flex;
+      flex-wrap: no-wrap;
+
+      .button {
+        @include button;
+      }
+    }
   }
 }

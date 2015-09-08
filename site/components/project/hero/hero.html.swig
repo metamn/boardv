@@ -1,8 +1,19 @@
 <section class="hero">
-  <h3 class="hero__title">{{ strapline | first }}</h3>
+  <h3>Hero</h3>
 
-  <h4 class="hero__subtitle">{{ strapline | last }}</h4>
+  <article class="hero__text">
+    <h3 class="title">{{ strapline | first }}</h3>
 
-  {% set offer = offer %}
-  {% include '__offer/hero__offer.html.swig' %} 
+    <p class="subtitle">{{ strapline | last }}</p>
+
+    <nav class="offer">
+      <h3>Offer</h3>
+
+      {% for item in offer %}
+        {% set link = item.link %}
+        {% include '../../framework/design/decorations/button/button.html.swig' %}
+      {% endfor %}
+    </nav>
+  </article>
+
 </section>
