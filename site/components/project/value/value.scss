@@ -1,6 +1,7 @@
 @mixin value {
   &__title {
     @include value__title;
+    padding: $lem;
   }
 
   &:nth-of-type(1) {
@@ -9,10 +10,12 @@
 
   &:nth-of-type(2) {
     background: $lightblue;
+    color: $white;
   }
 
   &:nth-of-type(3) {
     background: $lightblue;
+    color: $white;
   }
 
   &:nth-of-type(4) {
@@ -22,6 +25,8 @@
 
   &:nth-of-type(5) {
     background: $indigoblue;
-    color: white;
+    color: $white;
   }
+
+  @include value--portrait;
 }

@@ -7,18 +7,22 @@
   width: 100vw;
 
   .title, .value {
-    width: 28vw;
-    height: 38vh;
-
-    padding: $lem;
+    flex-basis: 33%;
+    height: 44vh;
   }
 
   .title {
     display: flex;
     background: $green;
+
+    span {
+      padding: $lem;
+    }
   }
 
   .value {
     @include value;
   }
+
+  @include home__values--portrait;
 }

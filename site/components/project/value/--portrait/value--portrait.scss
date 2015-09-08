@@ -1,0 +1,12 @@
+@mixin value--portrait {
+  @include portrait {
+    &:nth-of-type(3) {
+      background: $indigoblue;
+      color: $white;
+    }
+
+    &:nth-of-type(5) {
+      background: $lightblue;
+    }
+  }
+}

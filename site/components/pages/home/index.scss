@@ -3,10 +3,7 @@ body {
   @include reset;
   @include text-style(default);
 
-  display: flex;
-  flex-wrap: wrap;
-
-  padding: $lem;
+  @include home__layout;
 
   .header {
     @include header;

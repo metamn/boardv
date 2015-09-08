@@ -9,11 +9,9 @@
   &__text {
     @include colors(white-on-indigoblue);
     opacity: .9;
-    padding: $lem;
-    max-width: 28vw;
-    margin-bottom: $lem * 2;
+    flex-basis: 33%;
 
-    height: calc(100% - #{$lem * 2});
+    height: 100%;
     overflow: hidden;
 
     display: flex;
@@ -23,19 +21,23 @@
     .title {
       display: flex;
       @include text-style(hero);
+      padding: $lem / 2 $lem $lem /2 $lem / 2;
     }
 
     .subtitle {
-      padding: $lem 0;
+      padding: $lem;
     }
 
     .offer {
       display: flex;
       flex-wrap: no-wrap;
+      padding: $lem;
 
       .button {
         @include button(white-on-indigoblue, indigoblue-on-white);
       }
     }
   }
+
+  @include hero--portrait;
 }

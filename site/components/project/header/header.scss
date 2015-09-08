@@ -5,13 +5,15 @@
 
   width: 100vw;
 
+  @include header--portrait;
+
   &__logo {
     @include figure;
   }
 
   @include menu;
 
-  // when the mobile menu is opened 
+  // when the mobile menu is opened
   &.opened {
     flex-wrap: wrap;
   }
