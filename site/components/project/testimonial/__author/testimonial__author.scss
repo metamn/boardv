@@ -1,5 +1,28 @@
 @mixin testimonial__author {
-  .name {
+  display: flex;
+  align-items: center;
+
+  padding: $lem 0;
+
+  figure {
+    @include figure;
+    @include circle($lem * 3);
+    background: transparent;
+    margin-right: $lem;
+  }
+
+  .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .name {
+      display: flex;
+      order: 2;
+    }
+
+    .role {
+      order: 3;
+    }
   }
 }

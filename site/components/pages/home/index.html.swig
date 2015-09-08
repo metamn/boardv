@@ -28,6 +28,7 @@
     {% set features = features %}
     {% include '../../project/features/features.html.swig' %}
 
+    {% set images = images %}
     {% set testimonials = testimonials %}
     {% include '__testimonials/home__testimonials.html.swig' %}
 

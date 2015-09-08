@@ -3,6 +3,7 @@
 
   {% for testimonial in testimonials %}
     {% set testimonial = testimonial %}
+    {% set image = images[loop.index + 1] %}
     {% include '../../../project/testimonial/testimonial.html.swig' %}
   {% endfor %}
 </section>

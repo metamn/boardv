@@ -12,6 +12,21 @@
       "title": "hero",
       "name": "hero",
       "extension": ".jpg"
+    },
+    {
+      "title": "Random User",
+      "name": "random-user-1",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Random User",
+      "name": "random-user-2",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Random User",
+      "name": "random-user-3",
+      "extension": ".jpg"
     }
   ],
   "offer": [
