@@ -1,6 +1,5 @@
 @mixin testimonial {
-  width: 28vw;
-  padding: $lem;
+  flex-basis: 33%;
 
   &__text {
     @include testimonial__text;

@@ -11,12 +11,12 @@ body {
 
   .hero {
     @include hero;
-    display: none;
+    //display: none;
   }
 
   .home__values {
     @include home__values;
-    display: none;
+    //display: none;
   }
 
   .home__exams {
@@ -31,7 +31,7 @@ body {
 
   .home__testimonials {
     @include home__testimonials;
-    display: none;
+    //display: none;
   }
 
   .home__goodies {

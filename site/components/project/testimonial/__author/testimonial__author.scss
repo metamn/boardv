@@ -19,10 +19,15 @@
     .name {
       display: flex;
       order: 2;
+
+      @include text-style(navigation);
+      font-weight: bold;
     }
 
     .role {
       order: 3;
+      max-width: 15em;
+      font-size: .75em;
     }
   }
 }

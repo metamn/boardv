@@ -1,6 +1,9 @@
 @mixin testimonial__text {
+  padding: $lem;
+
   .blockquote {
     @include blockquote;
     @include text-style(title);
+    font-size: larger;
   }
 }
