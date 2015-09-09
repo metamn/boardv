@@ -8,4 +8,18 @@
   &__author {
     @include testimonial__author;
   }
+
+  @include portrait {
+    flex-basis: 100%;
+
+    display: none;
+    &:nth-of-type(1) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__text {
+      font-size: smaller;
+    }
+  }
 }

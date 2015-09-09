@@ -5,6 +5,10 @@
   @include portrait {
     display: flex;
 
+    .text {
+      margin-right: $lem / 4;
+    }
+
     &--open,
     &--close {
       display: none;

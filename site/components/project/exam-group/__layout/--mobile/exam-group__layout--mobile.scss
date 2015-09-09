@@ -1,4 +1,10 @@
 @mixin exam-group__layout--mobile {
+  @include portrait {
+    flex-basis: 90%;
+    padding: $lem 5%;
+  }
+
+
   @include mobile {
     flex-basis: 100%;
     padding: $lem 0;

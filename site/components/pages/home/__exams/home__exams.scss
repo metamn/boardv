@@ -15,6 +15,10 @@
 
     margin: $lem 0;
     padding: $lem / 2;
+
+    @include portrait {
+      margin: 0;
+    }
   }
 
   .exam-group {
