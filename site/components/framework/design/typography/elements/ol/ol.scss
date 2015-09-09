@@ -14,9 +14,11 @@
     margin-bottom: $lem;
 
     &:before {
-      content: counter(ol);
+      //content: counter(ol);
       margin-right: $lem / 2;
-      @include circle;
+      //@include circle;
+      content: '\2714';
+      color: $green;
     }
   }
 }

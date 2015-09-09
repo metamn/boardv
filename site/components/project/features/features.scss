@@ -3,15 +3,22 @@
   flex-direction: column;
   justify-content: space-around;
   flex-basis: 47.5%;
-  margin-left: 5%;
+  padding-left: 5%;
+
+  //background: $lightblue;
+  //color: $white;
 
   &__video {
     @include features__video;
-    display: none;
   }
 
   &__list {
     @include features__list;
+  }
+
+  &__video,
+  &__list {
+    flex-basis: 50%;
   }
 
   @include features--portrait;

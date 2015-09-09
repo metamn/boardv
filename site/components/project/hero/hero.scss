@@ -22,7 +22,7 @@
     .title {
       display: flex;
       @include text-style(hero);
-      padding: $lem / 2 $lem $lem /2 $lem / 2;
+      padding: 0 $lem 0 $lem / 2;
     }
 
     .subtitle {

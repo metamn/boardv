@@ -34,7 +34,7 @@ body {
 
   .home__goodies {
     @include home__goodies;
-    //display: none;
+    display: none;
   }
 
   .footer {
