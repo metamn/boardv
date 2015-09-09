@@ -1,4 +1,8 @@
 @mixin card {
+  display: flex;
+  justify-content: space-between;
+  @include button(gray-on-lightgray, white-on-black);
+
   &__price {
     @include card__price;
   }

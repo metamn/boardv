@@ -1,2 +1,2 @@
 {% import "../../../../helpers/link/link.swig" as l  %}
-{{ l.link(link) }}{{ link.title }}</a>
+{{ l.link(link) }}{{ link.title | safe }}</a>

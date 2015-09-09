@@ -1,5 +1,8 @@
 @mixin exam-group__layout--mobile {
   @include mobile {
+    flex-basis: 100%;
+    padding: $lem 0;
+
     &__title {
       width: 100%;
     }
@@ -18,11 +21,7 @@
       .exam {
         &__cards {
           .card {
-            &__action {
-              .button {
-                font-size: .5em !important;
-              }
-            }
+            flex-wrap: wrap;
           }
         }
       }

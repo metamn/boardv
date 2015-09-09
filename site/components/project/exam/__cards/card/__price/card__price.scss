@@ -1,10 +1,12 @@
 @mixin card__price {
+  font-weight: bold;
+
   &--free {
     color: $green;
   }
 
   &--paid,
   .currency {
-    color: $orange;
+    color: $lightblue;
   }
 }

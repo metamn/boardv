@@ -1,14 +1,13 @@
 @mixin home__exams {
   display: flex;
   flex-direction: column;
+  flex-basis: 100%;
 
-  flex-basis: 47.5%;
-  @include portrait {
-    flex-basis: 100%;
-  }
+  background: $lightgray;
 
   .title {
     display: flex;
+    align-self: center;
     @include text-style(title);
 
     margin: $lem 0;
@@ -17,8 +16,5 @@
 
   .exam-group {
     @include exam-group;
-    padding: $lem;
   }
-
-  background: $lightgray;
 }

@@ -13,7 +13,7 @@ $white: #fff;
 $black: #000;
 
 // Secondary color
-$gray: #ccc;
+$gray: #999;
 
 // Secondary color
 $lightgray: #f1f1f1;
@@ -55,15 +55,9 @@ $indigoblue: #003d39;
     
   }
 
-  @if ($name == 'white-on-indigoblue') {
-    color: $white;
-    background-color: $indigoblue;
-    
-  }
-
-  @if ($name == 'indigoblue-on-white') {
-    color: $indigoblue;
-    background-color: $white;
+  @if ($name == 'gray-on-lightgray') {
+    color: $gray;
+    background-color: $lightgray;
     
   }
 
@@ -80,7 +74,7 @@ $indigoblue: #003d39;
 };
 
 .gray {
-  background: #ccc;
+  background: #999;
 };
 
 .lightgray {
@@ -128,15 +122,9 @@ $indigoblue: #003d39;
   
 }
 
-.white-on-indigoblue {
-  color: $white;
-  background-color: $indigoblue;
-  
-}
-
-.indigoblue-on-white {
-  color: $indigoblue;
-  background-color: $white;
+.gray-on-lightgray {
+  color: $gray;
+  background-color: $lightgray;
   
 }
 

@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
 
-  padding: $lem 0;
+  flex-basis: 70%;
+  padding: $lem 15%;
 
   &__exams {
     width: 100%;

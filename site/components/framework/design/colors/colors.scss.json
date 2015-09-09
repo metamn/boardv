@@ -12,7 +12,7 @@
     },
     {
       "name": "gray",
-      "value": "#ccc",
+      "value": "#999",
       "description": "Secondary color"
     },
     {
@@ -87,28 +87,15 @@
       ]
     },
     {
-      "name": "white-on-indigoblue",
+      "name": "gray-on-lightgray",
       "properties": [
         {
           "name": "color",
-          "value": "$white"
+          "value": "$gray"
         },
         {
           "name": "background-color",
-          "value": "$indigoblue"
-        }
-      ]
-    },
-    {
-      "name": "indigoblue-on-white",
-      "properties": [
-        {
-          "name": "color",
-          "value": "$indigoblue"
-        },
-        {
-          "name": "background-color",
-          "value": "$white"
+          "value": "$lightgray"
         }
       ]
     }
