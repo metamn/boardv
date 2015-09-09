@@ -54,21 +54,33 @@
   ],
   "values": [
     {
-      "title": "Single digital question bank"
+      "title": "Why study with BoardVitals?",
+      "content": "5 unique reasons you won't find elsewhere."
     },
     {
-      "title": "Access anytime, anywhere"
+      "title": "Single digital question bank",
+      "content": "<svg/>",
+      "counter": "1"
     },
     {
-      "title": "Best questions from publishers, universities, and 150+ Physician contributors"
+      "title": "Access anytime, anywhere",
+      "content": "<svg/>",
+      "counter": "2"
+    },
+    {
+      "title": "Best questions from publishers, universities, and 150+ Physician contributors",
+      "content": "<svg/>",
+      "counter": "3"
     },
     {
       "title": "Reduce preparation time by",
-      "percentage": "-18%"
+      "content": "-18%",
+      "counter": "4"
     },
     {
       "title": "Increase your pass rate with",
-      "percentage": "+8%"
+      "content": "+8%",
+      "counter": "5"
     }
   ],
   "features": [

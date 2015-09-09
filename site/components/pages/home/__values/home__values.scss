@@ -3,22 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-around;
-  min-height: 90vh;
-  width: 100vw;
-
-  .title, .value {
-    flex-basis: 33%;
-    height: 44vh;
-  }
-
-  .title {
-    display: flex;
-    background: $green;
-
-    span {
-      padding: $lem;
-    }
-  }
+  flex-basis: 100%;
 
   .value {
     @include value;
