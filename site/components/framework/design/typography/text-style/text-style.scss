@@ -31,7 +31,7 @@
   // - Headline for the hero text.
   @if ($variant == 'hero') {
     @include font(arial-bold);
-    @include scale(large-2);
+    @include scale(large-3);
     
     
     
@@ -74,7 +74,7 @@
 
 .text-style--hero {
   @include font(arial-bold);
-  @include scale(large-2);
+  @include scale(large-3);
   
   
   

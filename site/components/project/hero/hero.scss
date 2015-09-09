@@ -8,6 +8,7 @@
 
   &__text {
     @include colors(white-on-indigoblue);
+    background: transparent;
     opacity: .9;
     flex-basis: 33%;
 
@@ -34,7 +35,7 @@
       padding: $lem;
 
       .button {
-        @include button(white-on-indigoblue, indigoblue-on-white);
+        @include button(indigoblue-on-white, white-on-indigoblue);
       }
     }
   }

@@ -15,25 +15,31 @@ body {
 
   .home__values {
     @include home__values;
+    display: none;
   }
 
   .home__exams {
     @include home__exams;
+    display: none;
   }
 
   .features {
     @include features;
+    display: none;
   }
 
   .home__testimonials {
     @include home__testimonials;
+    display: none;
   }
 
   .home__goodies {
     @include home__goodies;
+    display: none;
   }
 
   .footer {
     @include footer;
+    display: none;
   }
 }
