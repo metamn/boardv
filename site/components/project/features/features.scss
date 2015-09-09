@@ -2,10 +2,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  flex-basis: 100%;
+  flex-basis: 47.5%;
+  margin-left: 5%;
 
   &__video {
     @include features__video;
+    display: none;
   }
 
   &__list {
