@@ -1,5 +1,7 @@
 @mixin home__values--portrait {
   @include portrait {
+    flex-direction: column;
+    
     .title,
     .value {
       flex-basis: 100%;
