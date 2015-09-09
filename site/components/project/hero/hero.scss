@@ -7,9 +7,9 @@
   background-size: cover;
 
   &__text {
-    @include colors(black-on-white);
-    background: transparent;
-    opacity: .9;
+    background: $lightblue;
+    color: $white;
+    opacity: .8;
     flex-basis: 33%;
 
     height: 100%;

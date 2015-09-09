@@ -10,10 +10,15 @@
   .title {
     display: flex;
     @include text-style(title);
+
     margin: $lem 0;
+    padding: $lem / 2;
   }
 
   .exam-group {
     @include exam-group;
+    padding: $lem;
   }
+
+  background: $lightgray;
 }

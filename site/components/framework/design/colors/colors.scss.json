@@ -16,6 +16,11 @@
       "description": "Secondary color"
     },
     {
+      "name": "lightgray",
+      "value": "#f1f1f1",
+      "description": "Secondary color"
+    },
+    {
       "name": "blue",
       "value": "#0d3f83",
       "description": "Brand color"

@@ -3,6 +3,8 @@
   display: flex;
   flex-wrap: wrap;
 
+  padding: $lem 0;
+
   .testimonial {
     @include testimonial;
   }
