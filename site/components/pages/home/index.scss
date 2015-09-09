@@ -19,26 +19,26 @@ body {
 
   .home__exams {
     @include home__exams;
-    display: none;
+    //display: none;
   }
 
   .features {
     @include features;
-    display: none;
+    //display: none;
   }
 
   .home__testimonials {
     @include home__testimonials;
-    display: none;
+    //display: none;
   }
 
   .home__goodies {
     @include home__goodies;
-    display: none;
+    //display: none;
   }
 
   .footer {
     @include footer;
-    display: none;
+    //display: none;
   }
 }
