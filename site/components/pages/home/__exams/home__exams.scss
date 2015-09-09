@@ -1,15 +1,12 @@
 @mixin home__exams {
   display: flex;
-  flex-direction: column;
-
-
-  flex-basis: 47.5%;
-  @include portrait {
-    flex-basis: 100%;
-  }
+  flex-wrap: wrap;
+  flex-basis: 100%;
 
   .title {
     display: flex;
+    flex-basis: 100%;
+    
     @include text-style(title);
     margin: $lem 0;
   }

@@ -1,9 +1,13 @@
 @mixin exam-group__layout {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  flex-basis: 45%;
 
   padding: $lem 0;
+
+  &:nth-of-type(even) {
+    margin-left: 5%;
+  }
 
   &__exams {
     width: 100%;
