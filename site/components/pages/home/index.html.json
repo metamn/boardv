@@ -112,15 +112,18 @@
   "goodies": [
     {
       "title": "Guaranteed",
-      "text": "Guaranteed Pass"
+      "text": "Guaranteed Pass",
+      "button": "Sign up"
     },
     {
       "title": "Referrals",
-      "text": "Receive a Discount on Your Subscription"
+      "text": "Receive a Discount on Your Subscription",
+      "button": "Learn more"
     },
     {
       "title": "Scholarships",
-      "text": "Scholarship Opportunities"
+      "text": "Scholarship Opportunities",
+      "button": "Learn more"
     }
   ],
   "links": [

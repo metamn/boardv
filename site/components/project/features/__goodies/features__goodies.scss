@@ -1,4 +1,9 @@
 @mixin features__goodies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
   .goodie {
     @include goodie;
   }

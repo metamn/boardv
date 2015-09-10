@@ -1,4 +1,17 @@
 @mixin goodie {
-  width: 28vw;
-  padding: $lem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-basis: 70%;
+  margin: $lem 15%;
+
+  &__title {
+    display: flex;
+  }
+
+  .button {
+    @include button;
+    display: inline-flex;
+  }
 }

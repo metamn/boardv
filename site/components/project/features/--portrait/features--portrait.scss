@@ -1,6 +1,13 @@
 @mixin features--portrait {
   @include portrait {
     flex-basis: 100%;
-    margin-left: 0;
+    flex-direction: column;
+
+    &__video,
+    &__list,
+    &__goodies {
+      flex-basis: 100%;
+      margin: $lem 0;
+    }
   }
 }
