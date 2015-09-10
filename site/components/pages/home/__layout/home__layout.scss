@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
 
-  
   @include home__layout--portrait;
   @include home__layout--landscape;
 }

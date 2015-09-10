@@ -1,21 +1,14 @@
 @mixin menu__trigger {
-  display: none;
-  cursor: pointer;
+  @include menu__trigger--hidden;
 
   @include portrait {
-    display: flex;
+    @include menu__trigger--visible;
+  }
 
-    .text {
-      margin-right: $lem / 4;
-    }
 
-    &--open,
-    &--close {
-      display: none;
+  cursor: pointer;
 
-      &.active {
-        display: flex;
-      }
-    }
+  .text {
+    margin-right: $lem / 4;
   }
 }

@@ -1,0 +1,16 @@
+@mixin menu__trigger--visible {
+  display: flex;
+
+  &--open,
+  &--close {
+    display: none;
+    opacity: 0;
+
+    @include transition(opacity);
+
+    &.active {
+      display: flex;
+      opacity: 1;
+    }
+  }
+}
