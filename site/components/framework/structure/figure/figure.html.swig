@@ -1,7 +1,7 @@
+{% import "../../helpers/link/link.swig" as l  %}
+
 <figure {% if image.class %} class="{{ image.class }}" {% endif %}>
-  {% if image.url %}
-    <a class="link" href="{{ site.url }}{{ image.url }}" title="{{ image.title }}">
-  {% endif %}
+  {% if image.link %}{{ l.link(link) }}{% endif %}
 
   <!-- The default extension is .png but other formats are handled too -->
   {% set extension = '.png' %}
@@ -72,5 +72,5 @@
     {{ figcaption | safe }}
   </figcaption>
 
-  {% if image.url %}</a>{% endif %}
+{% if image.link %}</a>{% endif %}
 </figure>

@@ -1,4 +1,8 @@
 @mixin logo {
+  .link {
+    @include link(black-on-white);
+  }
+  
   figure {
     @include figure;
   }
