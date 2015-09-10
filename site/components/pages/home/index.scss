@@ -11,21 +11,16 @@ body {
 
   .hero {
     @include hero;
-    //display: none;
+    display: none;
   }
 
   .home__values {
     @include home__values;
-    //display: none;
+    display: none;
   }
 
   .home__exams {
     @include home__exams;
-    //display: none;
-  }
-
-  .features {
-    @include features;
     display: none;
   }
 
@@ -34,9 +29,9 @@ body {
     //display: none;
   }
 
-  .home__goodies {
-    @include home__goodies;
-    display: none;
+  .features {
+    @include features;
+    //display: none;
   }
 
   .footer {

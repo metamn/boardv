@@ -5,6 +5,5 @@
 
   {% set link = { title: "Learn more", url: '' } %}
   {% set button = { title: "Learn more", link: link } %}
-  {% include '../../framework/design/decorations/button/button.html.swig' %}
-
+  {% include '../../../../framework/design/decorations/button/button.html.swig' %}
 </article>

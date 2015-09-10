@@ -2,8 +2,13 @@
   display: flex;
   flex-wrap: wrap;
 
-  flex-basis: 70%;
-  padding: $lem 15%;
+  flex-basis: 80%;
+  padding: $lem 10%;
+
+  @include desktop {
+    flex-basis: 70%;
+    padding: $lem 15%;
+  }
 
   &__exams {
     width: 100%;

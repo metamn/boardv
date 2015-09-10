@@ -6,6 +6,5 @@
 
   .container {
     @include intrinsic-ratio(16, 9, '.video');
-    display: none;
   }
 }

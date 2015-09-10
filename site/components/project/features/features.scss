@@ -1,12 +1,12 @@
 @mixin features {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  flex-basis: 47.5%;
-  padding-left: 5%;
+  flex-basis: 100%;
 
-  //background: $lightblue;
-  //color: $white;
+  &__video,
+  &__list,
+  &__goodies {
+    flex-basis: 33%;
+  }
 
   &__video {
     @include features__video;
@@ -16,9 +16,8 @@
     @include features__list;
   }
 
-  &__video,
-  &__list {
-    flex-basis: 50%;
+  &__goodies {
+    @include features__goodies;
   }
 
   @include features--portrait;

@@ -25,15 +25,13 @@
     {% set exam_groups = exam_groups %}
     {% include '__exams/home__exams.html.swig' %}
 
-    {% set features = features %}
-    {% include '../../project/features/features.html.swig' %}
-
     {% set images = images %}
     {% set testimonials = testimonials %}
-    {% include '__testimonials/home__testimonials.html.swig' %}
+    {% include '__testimonials/home__testimonials.html.swig' %}    
 
     {% set goodies = goodies %}
-    {% include '__goodies/home__goodies.html.swig' %}
+    {% set features = features %}
+    {% include '../../project/features/features.html.swig' %}
 
     {% set image = images | first %}
     {% set links = links %}
