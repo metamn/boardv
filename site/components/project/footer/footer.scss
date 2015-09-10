@@ -1,20 +1,50 @@
 @mixin footer {
   display: flex;
+  flex-basis: 100%;
   flex-wrap: no-wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 100vw;
+
+  @include portrait {
+    flex-wrap: wrap;
+  }
+
+  @include mobile {
+    flex-direction: column;
+
+    &__offer,
+    &__links,
+    &__social {
+      margin-top: $lem;
+    }
+  }
 
   border-top: $lem / 2 double;
   padding: $lem 0;
 
-  @include text-style(navigation);
-
-  .link {
-    @include link(black-on-white);
-  }
 
   .ul {
     @include ul;
+    @include text-style(navigation);
+
+    .link {
+      @include link(black-on-white);
+    }
+  }
+
+  &__links {
+    @include footer__links;
+  }
+
+  &__logo {
+    @include footer__logo;
+  }
+
+  &__offer {
+    @include footer__offer;
+  }
+
+  &__social {
+    @include footer__social;
   }
 }

@@ -11,17 +11,17 @@ body {
 
   .hero {
     @include hero;
-    display: none;
+    //display: none;
   }
 
   .home__values {
     @include home__values;
-    display: none;
+    //display: none;
   }
 
   .home__exams {
     @include home__exams;
-    display: none;
+    //display: none;
   }
 
   .home__testimonials {

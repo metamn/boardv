@@ -8,6 +8,7 @@
 
   &__title {
     display: flex;
+    @include text-style(title);
   }
 
   .button {
