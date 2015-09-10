@@ -4,16 +4,11 @@
   align-items: center;
   flex-basis: 100%;
 
-  @include header--portrait;
-
-  &__logo {
-    @include figure;
+  .logo {
+    @include logo;
   }
 
   @include menu;
-
-  // when the mobile menu is opened
-  &.opened {
-    flex-wrap: wrap;
-  }
+  
+  @include header--opened;
 }

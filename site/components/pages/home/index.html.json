@@ -6,7 +6,8 @@
   "images": [
     {
       "title": "logo",
-      "name": "logo"
+      "name": "logo",
+      "url": ""
     },
     {
       "title": "hero",

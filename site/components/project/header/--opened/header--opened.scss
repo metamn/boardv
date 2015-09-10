@@ -1,0 +1,6 @@
+@mixin header--opened {
+  // when the mobile menu is opened
+  &.opened {
+    flex-wrap: wrap;
+  }
+}
